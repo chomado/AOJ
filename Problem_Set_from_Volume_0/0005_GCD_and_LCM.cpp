@@ -1,3 +1,4 @@
+// 問題： http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0005&lang=jp
 #include <iostream>
 int Gcd(int a, int b) // Greatest Common Divisor
 {
