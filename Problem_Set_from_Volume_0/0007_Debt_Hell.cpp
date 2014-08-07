@@ -1,3 +1,4 @@
+// 問題： http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0007
 #include <iostream>
 const int first = 100000;
 int round_up(int price) // 1000円未満を切り上げ
