@@ -1,3 +1,4 @@
+// 問題: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0009
 #include <iostream>
 #include <vector>
 #include <cmath>
