@@ -16,6 +16,7 @@ void get_hit_blow(int & hit, int & blow, std::vector<int> a, std::vector<int> b)
 			if (a[i] == b[j]) ++blow;
 		}
 	}
+	blow -= hit;
 }
 int main()
 {
@@ -23,6 +24,6 @@ int main()
 	while (input(a) && input(b)) {
 		int hit = 0, blow = 0;
 		get_hit_blow(hit, blow, a, b);
-		std::cout << hit << ' ' << blow - hit << std::endl;
+		std::cout << hit << ' ' << blow << std::endl;
 	}
 }
